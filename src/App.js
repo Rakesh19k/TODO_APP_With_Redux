@@ -7,7 +7,7 @@ import {store} from "./redux/store"
 
 function App() {
   return (
-    <div className="App m-5">
+    <div className="app m-5">
       <Provider store={store}>
         <TodoInput/>
         <TodoList/>
